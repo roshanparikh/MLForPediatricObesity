@@ -1,4 +1,4 @@
-setwd("/Users/roshanparikh/Documents/DATA 2050/dsicapstone")
+setwd("/Users/roshanparikh/Documents/DATA 2050/MLForPediatricObesity")
 
 # Loading data 
 data_imp = read.csv("df_regression_imp.csv")

@@ -1,0 +1,664 @@
+> aov_results_miss_sga
+$X
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1     56    56.0   0.141  0.708
+Residuals   62  24601   396.8               
+
+$std__gest_age
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.00  0.9982    0.99  0.324
+Residuals   62  62.49  1.0079               
+
+$std__1yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.11   1.106   1.086  0.302
+Residuals   50  50.94   1.019               
+12 observations deleted due to missingness
+
+$std__3yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.45  0.4486   0.411  0.524
+Residuals   54  59.00  1.0925               
+8 observations deleted due to missingness
+
+$std__3yr_bmi_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.69  0.6936   0.671  0.417
+Residuals   50  51.67  1.0334               
+12 observations deleted due to missingness
+
+$std__age_on_obes
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.33  0.3281   0.331  0.568
+Residuals   51  50.63  0.9928               
+11 observations deleted due to missingness
+
+$std__birth.1yr_wt_diff
+            Df Sum Sq Mean Sq F value Pr(>F)  
+target       1   5.36   5.363   6.548 0.0139 *
+Residuals   46  37.67   0.819                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+16 observations deleted due to missingness
+
+$std__1yr.3yr_wt_diff
+            Df Sum Sq Mean Sq F value Pr(>F)  
+target       1   5.18   5.175    5.27 0.0263 *
+Residuals   46  45.18   0.982                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+16 observations deleted due to missingness
+
+$ohot__race_Black
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.85  0.8456   0.866  0.356
+Residuals   62  60.56  0.9768               
+
+$ohot__race_Hispanic
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.00  0.0004       0  0.985
+Residuals   62  64.97  1.0478               
+
+$ohot__race_Other
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.20   1.204   1.234  0.271
+Residuals   62  60.51   0.976               
+
+$ohot__race_White
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.33   1.333   1.234  0.271
+Residuals   62  66.96   1.080               
+
+$ohot__race_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.80   0.803   0.787  0.378
+Residuals   62  63.25   1.020               
+
+$ohot__sex_F
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18  0.1816   0.177  0.675
+Residuals   62  63.59  1.0257               
+
+$ohot__sex_M
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18  0.1816   0.177  0.675
+Residuals   62  63.59  1.0257               
+
+$ohot__insurance_type_Private
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.61  0.6081   0.639  0.427
+Residuals   62  58.97  0.9511               
+
+$ohot__insurance_type_Public
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.85  0.8456   0.866  0.356
+Residuals   62  60.56  0.9768               
+
+$ohot__insurance_type_Self.Insured
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.05  0.0538   0.048  0.827
+Residuals   62  68.87  1.1108               
+
+$ohot__insurance_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.11  0.1092   0.099  0.755
+Residuals   62  68.73  1.1085               
+
+$ohot__4mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.29  0.2858   0.259  0.612
+Residuals   62  68.29  1.1015               
+
+$ohot__4mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.83   1.829   1.759   0.19
+Residuals   62  64.48   1.040               
+
+$ohot__4mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.29   1.291   1.217  0.274
+Residuals   62  65.81   1.061               
+
+$ohot__6mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.11  0.1092   0.099  0.755
+Residuals   62  68.73  1.1085               
+
+$ohot__6mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.85  0.8493   0.787  0.378
+Residuals   62  66.90  1.0790               
+
+$ohot__6mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.69  0.6939   0.639  0.427
+Residuals   62  67.28  1.0852               
+
+===========================================
+> aov_results_miss_lga
+$X
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1    517   516.7   1.281  0.262
+Residuals   64  25807   403.2               
+
+$std__gest_age
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18   0.179    0.17  0.681
+Residuals   64  67.31   1.052               
+
+$std__1yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.69  0.6875    0.65  0.424
+Residuals   51  53.96  1.0581               
+13 observations deleted due to missingness
+
+$std__3yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.08  0.0764   0.071  0.791
+Residuals   56  60.41  1.0787               
+8 observations deleted due to missingness
+
+$std__3yr_bmi_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1    0.0   0.001   0.001  0.976
+Residuals   51   54.3   1.065               
+13 observations deleted due to missingness
+
+$std__age_on_obes
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.44  0.4439   0.415  0.522
+Residuals   52  55.58  1.0689               
+12 observations deleted due to missingness
+
+$std__birth.1yr_wt_diff
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+target       1   6.43   6.429   7.712 0.00786 **
+Residuals   47  39.19   0.834                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+17 observations deleted due to missingness
+
+$std__1yr.3yr_wt_diff
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.49  0.4944   0.507   0.48
+Residuals   47  45.84  0.9752               
+17 observations deleted due to missingness
+
+$ohot__race_Black
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.75  0.7542   0.717    0.4
+Residuals   64  67.30  1.0515               
+
+$ohot__race_Hispanic
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.35  0.3479    0.34  0.562
+Residuals   64  65.58  1.0247               
+
+$ohot__race_Other
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.30  0.2961   0.307  0.581
+Residuals   64  61.69  0.9639               
+
+$ohot__race_White
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.59  0.5937   0.629  0.431
+Residuals   64  60.46  0.9446               
+
+$ohot__race_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1    0.0  0.0049   0.005  0.946
+Residuals   64   68.2  1.0656               
+
+$ohot__sex_F
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.37  0.3694    0.36  0.551
+Residuals   64  65.74  1.0271               
+
+$ohot__sex_M
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.37  0.3694    0.36  0.551
+Residuals   64  65.74  1.0271               
+
+$ohot__insurance_type_Private
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.46   1.458   1.397  0.242
+Residuals   64  66.81   1.044               
+
+$ohot__insurance_type_Public
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.75  0.7542   0.717    0.4
+Residuals   64  67.30  1.0515               
+
+$ohot__insurance_type_Self.Insured
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.09   0.087   0.081  0.777
+Residuals   64  68.87   1.076               
+
+$ohot__insurance_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18  0.1765   0.164  0.687
+Residuals   64  68.73  1.0739               
+
+$ohot__4mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.46  0.4619   0.433  0.513
+Residuals   64  68.29  1.0671               
+
+$ohot__4mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)  
+target       1   2.96   2.956   2.935 0.0915 .
+Residuals   64  64.48   1.007                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$ohot__4mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   2.09   2.087    2.03  0.159
+Residuals   64  65.81   1.028               
+
+$ohot__6mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18  0.1765   0.164  0.687
+Residuals   64  68.73  1.0739               
+
+$ohot__6mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.37   1.373   1.313  0.256
+Residuals   64  66.90   1.045               
+
+$ohot__6mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.12   1.121   1.067  0.306
+Residuals   64  67.28   1.051               
+
+===========================================
+> aov_results_imp_sga
+$X
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1     56    56.0   0.141  0.708
+Residuals   62  24601   396.8               
+
+$std__gest_age
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.00  0.9982    0.99  0.324
+Residuals   62  62.49  1.0079               
+
+$std__1yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.61  0.6111   0.567  0.454
+Residuals   62  66.84  1.0781               
+
+$std__3yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.58  0.5832    0.58  0.449
+Residuals   62  62.39  1.0064               
+
+$std__3yr_bmi_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.82  0.8174    0.81  0.372
+Residuals   62  62.55  1.0088               
+
+$std__age_on_obes
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.23  0.2324    0.23  0.633
+Residuals   62  62.59  1.0095               
+
+$std__birth.1yr_wt_diff
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+target       1   5.75   5.753   7.577 0.00774 **
+Residuals   62  47.08   0.759                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$std__1yr.3yr_wt_diff
+            Df Sum Sq Mean Sq F value Pr(>F)  
+target       1   4.94   4.939   5.604 0.0211 *
+Residuals   62  54.64   0.881                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$ohot__race_Black
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.85  0.8456   0.866  0.356
+Residuals   62  60.56  0.9768               
+
+$ohot__race_Hispanic
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.00  0.0004       0  0.985
+Residuals   62  64.97  1.0478               
+
+$ohot__race_Other
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.20   1.204   1.234  0.271
+Residuals   62  60.51   0.976               
+
+$ohot__race_White
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.33   1.333   1.234  0.271
+Residuals   62  66.96   1.080               
+
+$ohot__race_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.80   0.803   0.787  0.378
+Residuals   62  63.25   1.020               
+
+$ohot__sex_F
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18  0.1816   0.177  0.675
+Residuals   62  63.59  1.0257               
+
+$ohot__sex_M
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18  0.1816   0.177  0.675
+Residuals   62  63.59  1.0257               
+
+$ohot__insurance_type_Private
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.61  0.6081   0.639  0.427
+Residuals   62  58.97  0.9511               
+
+$ohot__insurance_type_Public
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.85  0.8456   0.866  0.356
+Residuals   62  60.56  0.9768               
+
+$ohot__insurance_type_Self.Insured
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.05  0.0538   0.048  0.827
+Residuals   62  68.87  1.1108               
+
+$ohot__insurance_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.11  0.1092   0.099  0.755
+Residuals   62  68.73  1.1085               
+
+$ohot__4mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.29  0.2858   0.259  0.612
+Residuals   62  68.29  1.1015               
+
+$ohot__4mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.83   1.829   1.759   0.19
+Residuals   62  64.48   1.040               
+
+$ohot__4mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.29   1.291   1.217  0.274
+Residuals   62  65.81   1.061               
+
+$ohot__6mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.11  0.1092   0.099  0.755
+Residuals   62  68.73  1.1085               
+
+$ohot__6mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.85  0.8493   0.787  0.378
+Residuals   62  66.90  1.0790               
+
+$ohot__6mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.69  0.6939   0.639  0.427
+Residuals   62  67.28  1.0852               
+
+===========================================
+> aov_results_imp_lga
+$X
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1    517   516.7   1.281  0.262
+Residuals   64  25807   403.2               
+
+$std__gest_age
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18   0.179    0.17  0.681
+Residuals   64  67.31   1.052               
+
+$std__1yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.59  0.5911   0.533  0.468
+Residuals   64  70.99  1.1092               
+
+$std__3yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.16  0.1555   0.156  0.694
+Residuals   64  63.81  0.9970               
+
+$std__3yr_bmi_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.79  0.7855   0.745  0.391
+Residuals   64  67.48  1.0543               
+
+$std__age_on_obes
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.07   1.073   1.005   0.32
+Residuals   64  68.27   1.067               
+
+$std__birth.1yr_wt_diff
+            Df Sum Sq Mean Sq F value  Pr(>F)   
+target       1   7.19    7.19   9.465 0.00308 **
+Residuals   64  48.62    0.76                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$std__1yr.3yr_wt_diff
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.50  0.5034   0.581  0.449
+Residuals   64  55.42  0.8660               
+
+$ohot__race_Black
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.75  0.7542   0.717    0.4
+Residuals   64  67.30  1.0515               
+
+$ohot__race_Hispanic
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.35  0.3479    0.34  0.562
+Residuals   64  65.58  1.0247               
+
+$ohot__race_Other
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.30  0.2961   0.307  0.581
+Residuals   64  61.69  0.9639               
+
+$ohot__race_White
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.59  0.5937   0.629  0.431
+Residuals   64  60.46  0.9446               
+
+$ohot__race_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1    0.0  0.0049   0.005  0.946
+Residuals   64   68.2  1.0656               
+
+$ohot__sex_F
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.37  0.3694    0.36  0.551
+Residuals   64  65.74  1.0271               
+
+$ohot__sex_M
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.37  0.3694    0.36  0.551
+Residuals   64  65.74  1.0271               
+
+$ohot__insurance_type_Private
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.46   1.458   1.397  0.242
+Residuals   64  66.81   1.044               
+
+$ohot__insurance_type_Public
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.75  0.7542   0.717    0.4
+Residuals   64  67.30  1.0515               
+
+$ohot__insurance_type_Self.Insured
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.09   0.087   0.081  0.777
+Residuals   64  68.87   1.076               
+
+$ohot__insurance_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18  0.1765   0.164  0.687
+Residuals   64  68.73  1.0739               
+
+$ohot__4mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.46  0.4619   0.433  0.513
+Residuals   64  68.29  1.0671               
+
+$ohot__4mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)  
+target       1   2.96   2.956   2.935 0.0915 .
+Residuals   64  64.48   1.007                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$ohot__4mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   2.09   2.087    2.03  0.159
+Residuals   64  65.81   1.028               
+
+$ohot__6mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   0.18  0.1765   0.164  0.687
+Residuals   64  68.73  1.0739               
+
+$ohot__6mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.37   1.373   1.313  0.256
+Residuals   64  66.90   1.045               
+
+$ohot__6mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       1   1.12   1.121   1.067  0.306
+Residuals   64  67.28   1.051               
+
+> aov_results_imp_allclasses
+$X
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2    595   297.5   0.733  0.484
+Residuals   66  26775   405.7               
+
+$std__gest_age
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   1.23   0.616     0.6  0.552
+Residuals   66  67.77   1.027               
+
+$std__1yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   1.28  0.6392   0.593  0.555
+Residuals   66  71.11  1.0774               
+
+$std__3yr_wt_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   0.71  0.3527   0.364  0.696
+Residuals   66  63.90  0.9681               
+
+$std__3yr_bmi_pct
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   1.70  0.8522   0.831   0.44
+Residuals   66  67.67  1.0253               
+
+$std__age_on_obes
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   1.25  0.6249   0.598  0.553
+Residuals   66  68.96  1.0448               
+
+$std__birth.1yr_wt_diff
+            Df Sum Sq Mean Sq F value   Pr(>F)    
+target       2  13.76   6.879   9.316 0.000273 ***
+Residuals   66  48.74   0.738                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$std__1yr.3yr_wt_diff
+            Df Sum Sq Mean Sq F value Pr(>F)  
+target       2   5.65  2.8253    3.35 0.0411 *
+Residuals   66  55.66  0.8433                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$ohot__race_Black
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2    1.7  0.8505   0.834  0.439
+Residuals   66   67.3  1.0197               
+
+$ohot__race_Hispanic
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   0.35  0.1755   0.169  0.845
+Residuals   66  68.65  1.0401               
+
+$ohot__race_Other
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   1.43  0.7172   0.701    0.5
+Residuals   66  67.57  1.0237               
+
+$ohot__race_White
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   2.04   1.020   1.005  0.371
+Residuals   66  66.96   1.014               
+
+$ohot__race_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2    0.8  0.4016   0.389  0.679
+Residuals   66   68.2  1.0333               
+
+$ohot__sex_F
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   0.58   0.292   0.282  0.755
+Residuals   66  68.42   1.037               
+
+$ohot__sex_M
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   0.58   0.292   0.282  0.755
+Residuals   66  68.42   1.037               
+
+$ohot__insurance_type_Private
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   2.19   1.093    1.08  0.346
+Residuals   66  66.81   1.012               
+
+$ohot__insurance_type_Public
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2    1.7  0.8505   0.834  0.439
+Residuals   66   67.3  1.0197               
+
+$ohot__insurance_type_Self.Insured
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   0.13  0.0665   0.064  0.938
+Residuals   66  68.87  1.0434               
+
+$ohot__insurance_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   0.27  0.1351    0.13  0.879
+Residuals   66  68.73  1.0414               
+
+$ohot__4mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   0.71  0.3535   0.342  0.712
+Residuals   66  68.29  1.0347               
+
+$ohot__4mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   4.52  2.2623   2.316  0.107
+Residuals   66  64.48  0.9769               
+
+$ohot__4mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   3.19  1.5969   1.602  0.209
+Residuals   66  65.81  0.9971               
+
+$ohot__6mo_feeding_type_Breast.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   0.27  0.1351    0.13  0.879
+Residuals   66  68.73  1.0414               
+
+$ohot__6mo_feeding_type_Formula.Feeding
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2    2.1   1.050   1.036   0.36
+Residuals   66   66.9   1.014               
+
+$ohot__6mo_feeding_type_missing
+            Df Sum Sq Mean Sq F value Pr(>F)
+target       2   1.72  0.8581   0.842  0.436
+Residuals   66  67.28  1.0195 
